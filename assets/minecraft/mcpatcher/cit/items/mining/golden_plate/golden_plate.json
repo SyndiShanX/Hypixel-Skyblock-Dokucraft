@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/golden_plate/golden_plate.png"
+        "layer0": "mcpatcher/cit/items/mining/golden_plate/golden_plate.png"
     },
     "display": {
         "thirdperson": {
