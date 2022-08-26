@@ -1,6 +1,0 @@
-{ "parent": "block/custom_column",
-  "textures": {
-		"0": "block/ores/mithril/ends/2",
-		"1": "block/ores/mithril/sides/2"
-  }
-}
