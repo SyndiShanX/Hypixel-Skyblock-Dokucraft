@@ -1,21 +1,21 @@
 {
 	"credit": "Made by SyndiShanX",
 	"textures": {
-		"sides": "mcpatcher/cit/items/tools/wands/infinidirt_wand/infinidirt_wand_sides",
-		"end_1": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_1",
-		"end_2": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_2",
-		"end_3": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_3",
-		"end_4": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_4",
-		"end_5": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_5",
-		"end_6": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_6",
-		"end_7": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_7",
-		"end_8": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_8",
-		"end_9": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_9",
-		"end_10": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_10",
-		"end_11": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_11",
-		"end_12": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_12",
-		"end_13": "mcpatcher/cit/items/tools/wands/infinidirt_wand/ends/infinidirt_wand_end_13",
-		"handle": "mcpatcher/cit/items/tools/wands/infinidirt_wand/infinidirt_wand_handle"
+		"sides": "./infinidirt_wand_sides",
+		"end_1": "./ends/infinidirt_wand_end_1",
+		"end_2": "./ends/infinidirt_wand_end_2",
+		"end_3": "./ends/infinidirt_wand_end_3",
+		"end_4": "./ends/infinidirt_wand_end_4",
+		"end_5": "./ends/infinidirt_wand_end_5",
+		"end_6": "./ends/infinidirt_wand_end_6",
+		"end_7": "./ends/infinidirt_wand_end_7",
+		"end_8": "./ends/infinidirt_wand_end_8",
+		"end_9": "./ends/infinidirt_wand_end_9",
+		"end_10": "./ends/infinidirt_wand_end_10",
+		"end_11": "./ends/infinidirt_wand_end_11",
+		"end_12": "./ends/infinidirt_wand_end_12",
+		"end_13": "./ends/infinidirt_wand_end_13",
+		"handle": "./infinidirt_wand_handle"
 	},
 	"elements": [
 		{
