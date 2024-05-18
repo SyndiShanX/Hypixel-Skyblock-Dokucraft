@@ -1,21 +1,21 @@
 {
 	"credit": "Made by SyndiShanX",
 	"textures": {
-		"sides": "./builders_wand_sides",
-		"end_1": "./ends/builders_wand_end_1",
-		"end_2": "./ends/builders_wand_end_2",
-		"end_3": "./ends/builders_wand_end_3",
-		"end_4": "./ends/builders_wand_end_4",
-		"end_5": "./ends/builders_wand_end_5",
-		"end_6": "./ends/builders_wand_end_6",
-		"end_7": "./ends/builders_wand_end_7",
-		"end_8": "./ends/builders_wand_end_8",
-		"end_9": "./ends/builders_wand_end_9",
-		"end_10": "./ends/builders_wand_end_10",
-		"end_11": "./ends/builders_wand_end_11",
-		"end_12": "./ends/builders_wand_end_12",
-		"end_13": "./ends/builders_wand_end_13",
-		"handle": "./builders_wand_handle"
+		"sides": "./block_zapper_sides",
+		"end_1": "./ends/block_zapper_end_1",
+		"end_2": "./ends/block_zapper_end_2",
+		"end_3": "./ends/block_zapper_end_3",
+		"end_4": "./ends/block_zapper_end_4",
+		"end_5": "./ends/block_zapper_end_5",
+		"end_6": "./ends/block_zapper_end_6",
+		"end_7": "./ends/block_zapper_end_7",
+		"end_8": "./ends/block_zapper_end_8",
+		"end_9": "./ends/block_zapper_end_9",
+		"end_10": "./ends/block_zapper_end_10",
+		"end_11": "./ends/block_zapper_end_11",
+		"end_12": "./ends/block_zapper_end_12",
+		"end_13": "./ends/block_zapper_end_13",
+		"handle": "./block_zapper_handle"
 	},
 	"elements": [
 		{

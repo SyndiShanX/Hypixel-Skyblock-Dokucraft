@@ -32,7 +32,7 @@
 			}
 		},
 		{
-			"name": "Dirt Sides",
+			"name": "Block Sides",
 			"from": [6, 14, 6],
 			"to": [10, 20, 10],
 			"faces": {
@@ -43,7 +43,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 1",
+			"name": "Block End 1",
 			"from": [6, 16, 6],
 			"to": [10, 20, 10],
 			"faces": {
@@ -52,7 +52,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 2",
+			"name": "Block End 2",
 			"from": [6, 15.875, 6],
 			"to": [10, 19.875, 10],
 			"faces": {
@@ -61,7 +61,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 3",
+			"name": "Block End 3",
 			"from": [6, 15.75, 6],
 			"to": [10, 19.75, 10],
 			"faces": {
@@ -70,7 +70,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 4",
+			"name": "Block End 4",
 			"from": [6, 15.625, 6],
 			"to": [10, 19.625, 10],
 			"faces": {
@@ -79,7 +79,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 5",
+			"name": "Block End 5",
 			"from": [6, 15.5, 6],
 			"to": [10, 19.5, 10],
 			"faces": {
@@ -88,7 +88,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 6",
+			"name": "Block End 6",
 			"from": [6, 15.375, 6],
 			"to": [10, 19.375, 10],
 			"faces": {
@@ -97,7 +97,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 7",
+			"name": "Block End 7",
 			"from": [6, 15.25, 6],
 			"to": [10, 19.25, 10],
 			"faces": {
@@ -106,7 +106,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 8",
+			"name": "Block End 8",
 			"from": [6, 15.125, 6],
 			"to": [10, 19.125, 10],
 			"faces": {
@@ -115,7 +115,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 9",
+			"name": "Block End 9",
 			"from": [6, 15, 6],
 			"to": [10, 19, 10],
 			"faces": {
@@ -124,7 +124,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 10",
+			"name": "Block End 10",
 			"from": [6, 14.875, 6],
 			"to": [10, 18.875, 10],
 			"faces": {
@@ -133,7 +133,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 11",
+			"name": "Block End 11",
 			"from": [6, 14.75, 6],
 			"to": [10, 18.75, 10],
 			"faces": {
@@ -142,7 +142,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 12",
+			"name": "Block End 12",
 			"from": [6, 14.625, 6],
 			"to": [10, 18.625, 10],
 			"faces": {
@@ -151,7 +151,7 @@
 			}
 		},
 		{
-			"name": "Dirt End 13",
+			"name": "Block End 13",
 			"from": [6, 14.5, 6],
 			"to": [10, 18.5, 10],
 			"faces": {
@@ -184,7 +184,7 @@
 		0,
 		1,
 		{
-			"name": "Dirt Ends",
+			"name": "Block Ends",
 			"origin": [0, 0, 0],
 			"color": 0,
 			"children": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
