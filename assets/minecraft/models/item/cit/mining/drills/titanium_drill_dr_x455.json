@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/cit/mining/drills/titanium_drill_dr_x455"
+  }
+}

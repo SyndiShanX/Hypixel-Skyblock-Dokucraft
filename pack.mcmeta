@@ -1,6 +1,11 @@
 {
-  "pack": {
-    "pack_format": 1,
-    "description": "\u00A7bHypixel"
-  }
+	"pack": {
+		"pack_format": 55,
+		"description": [
+			{"text": "Hypixel", "color": "#ffcf01"},
+			{"text": " | ", "color": "#70706b"},
+			{"text": "v1.21.5", "color": "#e0e0dc"}
+		]
+	},
+	"__game_version": "1.21.5"
 }

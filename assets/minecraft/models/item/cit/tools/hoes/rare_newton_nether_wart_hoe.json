@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/cit/tools/hoes/rare_newton_nether_wart_hoe"
+  }
+}
