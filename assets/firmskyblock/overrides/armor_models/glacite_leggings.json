@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"GLACITE_LEGGINGS",
+		"GLACITE_BOOTS"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:glacite_armor"}
+	]
+}

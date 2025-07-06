@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"LAPIS_LEGGINGS",
+		"LAPIS_BOOTS"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:lapis_armor"}
+	]
+}

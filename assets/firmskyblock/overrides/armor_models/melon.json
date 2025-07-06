@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"MELON_HELMET",
+		"MELON_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:melon_armor"}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+		"layer0": "firmskyblock:item/cit/tools/raider_sword",
+    "comment": "firmskyblock:item/cit/tools/axes/raider_axe"
+  }
+}

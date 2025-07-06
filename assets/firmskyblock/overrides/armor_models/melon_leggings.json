@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"MELON_LEGGINGS",
+		"MELON_BOOTS"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:melon_armor"}
+	]
+}

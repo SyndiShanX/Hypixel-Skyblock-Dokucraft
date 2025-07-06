@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"LAPIS_HELMET",
+		"LAPIS_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:lapis_armor"}
+	]
+}

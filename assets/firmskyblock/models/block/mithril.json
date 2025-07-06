@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "firmskyblock:block/mithril/end",
+    "side": "firmskyblock:block/mithril/side"
+  }
+}

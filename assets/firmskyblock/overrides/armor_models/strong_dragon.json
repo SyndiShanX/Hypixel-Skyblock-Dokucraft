@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"STRONG_DRAGON_HELMET",
+		"STRONG_DRAGON_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:strong_dragon_armor"}
+	]
+}

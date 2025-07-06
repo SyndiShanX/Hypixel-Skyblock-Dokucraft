@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "firmskyblock:item/cit/tools/hoes/common_gauss_carrot_hoe"
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/handheld_rod",
+	"textures": {
+		"layer0": "firmskyblock:item/cit/tools/grappling_hook"
+	},
+	"overrides": [{"predicate": {"cast": 1}, "model": "firmskyblock:item/grappling_hook_cast"}]
+}

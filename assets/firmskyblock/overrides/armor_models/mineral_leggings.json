@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"MINERAL_LEGGINGS",
+		"MINERAL_BOOTS"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:mineral_armor"}
+	]
+}

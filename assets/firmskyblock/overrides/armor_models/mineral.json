@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"MINERAL_HELMET",
+		"MINERAL_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:mineral_armor"}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"modes": [
+		"mining_3"
+	],
+	"replacements": {
+		"minecraft:gray_wool": {
+			"block": "firmskyblock:poor_mithril",
+			"sound": "minecraft:block.stone.hit"
+		},
+		"minecraft:cyan_terracotta": {
+			"block": "firmskyblock:poor_mithril",
+			"sound": "minecraft:block.stone.hit"
+		},
+		"minecraft:prismarine": {
+			"block": "firmskyblock:mithril",
+			"sound": "minecraft:block.stone.hit"
+		},
+		"minecraft:prismarine_bricks": {
+			"block": "firmskyblock:mithril",
+			"sound": "minecraft:block.stone.hit"
+		},
+		"minecraft:dark_prismarine": {
+			"block": "firmskyblock:mithril",
+			"sound": "minecraft:block.stone.hit"
+		},
+		"minecraft:light_blue_wool": {
+			"block": "firmskyblock:dense_mithril",
+			"sound": "minecraft:block.stone.hit"
+		},
+		"minecraft:polished_diorite": {
+			"block": "firmskyblock:titanium",
+			"sound": "minecraft:block.stone.hit"
+		}
+	}
+}

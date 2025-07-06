@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"GLACITE_HELMET",
+		"GLACITE_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:glacite_armor"}
+	]
+}

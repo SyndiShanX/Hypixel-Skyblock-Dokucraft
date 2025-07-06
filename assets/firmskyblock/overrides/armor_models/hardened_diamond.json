@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"HARDENED_DIAMOND_HELMET",
+		"HARDENED_DIAMOND_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:hardened_diamond_armor"}
+	]
+}

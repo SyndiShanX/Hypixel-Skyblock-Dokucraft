@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"WISE_DRAGON_HELMET",
+		"WISE_DRAGON_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:wise_dragon_armor"}
+	]
+}

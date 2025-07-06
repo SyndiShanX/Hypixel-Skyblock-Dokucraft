@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"END_LEGGINGS",
+		"END_BOOTS"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:ender_armor"}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"item_ids": [
+		"END_HELMET",
+		"END_CHESTPLATE"
+	],
+	"layers": [
+		{"identifier": "firmskyblock:ender_armor"}
+	]
+}

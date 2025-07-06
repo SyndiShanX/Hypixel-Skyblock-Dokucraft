@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "firmskyblock:item/cit/tools/hoes/rare_turing_sugar_cane_hoe"
+  }
+}
