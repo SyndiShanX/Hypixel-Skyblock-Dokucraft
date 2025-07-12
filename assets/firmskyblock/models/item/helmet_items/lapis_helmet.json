@@ -2,6 +2,5 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "firmskyblock:item/cit/armor/lapis_helmet"
-  },
-	"firmament:head_model": "firmskyblock:item/helmets/lapis_helmet"
+  }
 }

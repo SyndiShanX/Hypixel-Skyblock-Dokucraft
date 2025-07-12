@@ -2,6 +2,5 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "firmskyblock:item/cit/armor/ender_helmet"
-  },
-	"firmament:head_model": "firmskyblock:item/helmets/end_helmet"
+  }
 }

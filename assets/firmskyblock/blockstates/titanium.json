@@ -1,0 +1,18 @@
+{ "multipart": [
+    { "apply": [
+        { "model": "firmskyblock:block/titanium/sides/0" },
+        { "model": "firmskyblock:block/titanium/sides/1" },
+        { "model": "firmskyblock:block/titanium/sides/2" },
+        { "model": "firmskyblock:block/titanium/sides/3" },
+        { "model": "firmskyblock:block/titanium/sides/4" }
+      ]
+    },
+    { "apply": [
+        { "model": "firmskyblock:block/titanium/ends/0" },
+        { "model": "firmskyblock:block/titanium/ends/1" },
+        { "model": "firmskyblock:block/titanium/ends/2" },
+        { "model": "firmskyblock:block/titanium/ends/3" }
+      ]
+    }
+  ]
+}
