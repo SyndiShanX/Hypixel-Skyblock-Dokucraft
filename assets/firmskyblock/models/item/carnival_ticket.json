@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/mining/raffle_ticket"
+    "layer0": "firmskyblock:item/cit/carnival_ticket"
   }
 }
