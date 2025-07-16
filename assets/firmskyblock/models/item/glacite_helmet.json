@@ -2,5 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "firmskyblock:item/cit/armor/glacite_helmet"
-  }
+  },
+	"firmament:head_model": "firmskyblock:item/helmets/glacite_helmet"
 }
