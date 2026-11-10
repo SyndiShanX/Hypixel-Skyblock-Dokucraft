@@ -1,0 +1,5 @@
+{ "parent": "firmskyblock:block/column_sides",
+  "textures": {
+    "0": "firmskyblock:block/dense_mithril/sides/2"
+  }
+}

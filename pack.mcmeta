@@ -1,14 +1,17 @@
 {
 	"pack": {
-    "min_format": 68,
-    "max_format": 69,
+    "min_format": 94,
+    "max_format": 98,
 		"description": [
 			{"text": "Hypixel", "color": "#ffcf01"},
 			{"text": " | ", "color": "#70706b"},
-			{"text": "v1.21.10", "color": "#e0e0dc"}
+			{"text": "v26.3", "color": "#e0e0dc"}
 		]
 	},
-  "dokucraft": {
-    "game_version": "1.21.10"
-  }
+	"catharsis:pack/v1": {
+		"id": "hypixel_skyblock_dokucraft",
+		"version": "26.3",
+		"disable_derived_ids": false,
+		"override_hypixel_pack": true
+	}
 }

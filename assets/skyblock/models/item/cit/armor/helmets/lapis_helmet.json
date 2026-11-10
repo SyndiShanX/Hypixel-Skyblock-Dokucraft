@@ -1,0 +1,19 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+		"top": "firmskyblock:item/cit/armor/helmets/lapis_helmet_top",
+		"front": "firmskyblock:item/cit/armor/helmets/lapis_helmet_front",
+		"side": "firmskyblock:item/cit/armor/helmets/lapis_helmet_side"
+	},
+	"display": {
+		"thirdperson": {
+			"rotation": [ 10, -45, 170 ],
+			"translation": [ 0, 1.5, -2.75 ],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		},
+		"gui": {
+			"rotation": [ 0, 0, 0 ],
+			"scale": [ 0.7, 0.7, 0.7 ]
+		}
+	}
+}

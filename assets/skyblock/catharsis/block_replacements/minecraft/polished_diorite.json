@@ -1,0 +1,9 @@
+{
+  "type": "per_area",
+  "entries": {
+    "catharsis:dwarven_mines/mithril": {
+      "type": "redirect",
+			"virtual_state": "skyblock:titanium"
+    }
+  }
+}

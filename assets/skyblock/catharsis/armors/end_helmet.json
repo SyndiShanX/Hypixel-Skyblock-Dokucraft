@@ -1,0 +1,15 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "catharsis:data_type",
+		"data_type": "has_skin_fallback",
+		"on_true": {
+			"type": "catharsis:fallthrough"
+		},
+		"on_false": {
+			"type": "catharsis:model",
+			"model": "skyblock:catharsis/armors/helmet.geo.json",
+			"layers": ["skyblock:textures/entity/equipment/humanoid_helmet/ender_armor.png"]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"model": {
+		"type": "catharsis:texture",
+		"layers": [
+			"skyblock:textures/entity/equipment/humanoid_leggings/hardened_diamond_armor.png"
+		]
+  }
+}

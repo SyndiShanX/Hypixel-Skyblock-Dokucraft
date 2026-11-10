@@ -1,0 +1,18 @@
+{ "multipart": [
+    { "apply": [
+        { "model": "firmskyblock:block/poor_mithril/sides/0" },
+        { "model": "firmskyblock:block/poor_mithril/sides/1" },
+        { "model": "firmskyblock:block/poor_mithril/sides/2" },
+        { "model": "firmskyblock:block/poor_mithril/sides/3" },
+        { "model": "firmskyblock:block/poor_mithril/sides/4" }
+      ]
+    },
+    { "apply": [
+        { "model": "firmskyblock:block/poor_mithril/ends/0" },
+        { "model": "firmskyblock:block/poor_mithril/ends/1" },
+        { "model": "firmskyblock:block/poor_mithril/ends/2" },
+        { "model": "firmskyblock:block/poor_mithril/ends/3" }
+      ]
+    }
+  ]
+}

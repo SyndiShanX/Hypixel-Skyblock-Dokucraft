@@ -1,0 +1,8 @@
+{
+	"model": {
+		"type": "catharsis:texture",
+		"layers": [
+			"skyblock:textures/entity/equipment/humanoid/melon_armor.png"
+		]
+  }
+}

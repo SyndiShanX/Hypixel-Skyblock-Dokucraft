@@ -1,0 +1,3856 @@
+{
+  "target": {
+    "conditions": [
+      {
+        "menu": "catharsis:generic",
+        "type": "catharsis:type"
+      },
+      {
+        "conditions": [
+          {
+            "title": {
+              "name": "Ender Chest .*"
+            },
+            "type": "catharsis:title"
+          },
+          {
+            "title": {
+              "name": ".*?Backpack \\(Slot #.*"
+            },
+            "type": "catharsis:title"
+          },
+          {
+            "title": {
+              "name": "Chest",
+              "mode": "equals"
+            },
+            "type": "catharsis:title"
+          },
+          {
+            "title": {
+              "name": "Large Chest",
+              "mode": "equals"
+            },
+            "type": "catharsis:title"
+          }
+        ],
+        "type": "catharsis:any"
+      }
+    ],
+    "type": "catharsis:all"
+  },
+  "layout": [
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 8,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 10,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_top": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_bottom": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 9,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_left": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": -1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          },
+          {
+            "conditions": [
+              {
+                "allow_right": false,
+                "type": "catharsis:menu_border"
+              },
+              {
+                "offset": 1,
+                "condition": {
+                  "items": "minecraft:black_stained_glass_pane",
+                  "type": "catharsis:item"
+                },
+                "type": "catharsis:relative_slot"
+              }
+            ],
+            "type": "catharsis:all"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    },
+    {
+      "id": "skyblock:background",
+      "target": {
+        "conditions": [
+          {
+            "items": "minecraft:black_stained_glass_pane",
+            "type": "catharsis:item"
+          }
+        ],
+        "type": "catharsis:all"
+      }
+    }
+  ]
+}
