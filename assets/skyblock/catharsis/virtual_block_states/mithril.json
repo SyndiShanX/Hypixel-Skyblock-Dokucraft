@@ -1,17 +1,17 @@
 { "multipart": [
     { "apply": [
-        { "model": "firmskyblock:block/mithril/sides/0" },
-        { "model": "firmskyblock:block/mithril/sides/1" },
-        { "model": "firmskyblock:block/mithril/sides/2" },
-        { "model": "firmskyblock:block/mithril/sides/3" },
-        { "model": "firmskyblock:block/mithril/sides/4" }
+        { "model": "skyblock:block/mithril/sides/0" },
+        { "model": "skyblock:block/mithril/sides/1" },
+        { "model": "skyblock:block/mithril/sides/2" },
+        { "model": "skyblock:block/mithril/sides/3" },
+        { "model": "skyblock:block/mithril/sides/4" }
       ]
     },
     { "apply": [
-        { "model": "firmskyblock:block/mithril/ends/0" },
-        { "model": "firmskyblock:block/mithril/ends/1" },
-        { "model": "firmskyblock:block/mithril/ends/2" },
-        { "model": "firmskyblock:block/mithril/ends/3" }
+        { "model": "skyblock:block/mithril/ends/0" },
+        { "model": "skyblock:block/mithril/ends/1" },
+        { "model": "skyblock:block/mithril/ends/2" },
+        { "model": "skyblock:block/mithril/ends/3" }
       ]
     }
   ]

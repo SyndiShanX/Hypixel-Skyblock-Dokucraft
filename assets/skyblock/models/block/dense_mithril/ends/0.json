@@ -1,5 +1,5 @@
-{ "parent": "firmskyblock:block/column_ends",
+{ "parent": "skyblock:block/column_ends",
   "textures": {
-    "0": "firmskyblock:block/dense_mithril/ends/0"
+    "0": "skyblock:block/dense_mithril/ends/0"
   }
 }

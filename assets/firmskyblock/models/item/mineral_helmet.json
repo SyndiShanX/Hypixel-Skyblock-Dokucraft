@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "firmskyblock:item/cit/armor/mineral_helmet"
-  },
-	"firmament:head_model": "firmskyblock:item/helmets/mineral_helmet"
-}
