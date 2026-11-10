@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/armor/mithril_coat"
+    "layer0": "skyblock:item/cit/armor/mithril_coat"
   }
 }

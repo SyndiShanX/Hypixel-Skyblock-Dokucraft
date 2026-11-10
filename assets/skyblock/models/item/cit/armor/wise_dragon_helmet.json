@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/armor/wise_dragon_helmet"
+    "layer0": "skyblock:item/cit/armor/wise_dragon_helmet"
   },
-	"firmament:head_model": "firmskyblock:item/helmets/wise_dragon_helmet"
+	"firmament:head_model": "skyblock:item/helmets/wise_dragon_helmet"
 }

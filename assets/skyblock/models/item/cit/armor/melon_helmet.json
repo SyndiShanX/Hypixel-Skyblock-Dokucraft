@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/armor/melon_helmet"
+    "layer0": "skyblock:item/cit/armor/melon_helmet"
   },
-	"firmament:head_model": "firmskyblock:item/helmets/melon_helmet"
+	"firmament:head_model": "skyblock:item/helmets/melon_helmet"
 }

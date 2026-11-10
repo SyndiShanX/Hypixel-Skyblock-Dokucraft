@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/armor/strong_dragon_helmet"
+    "layer0": "skyblock:item/cit/armor/strong_dragon_helmet"
   },
-	"firmament:head_model": "firmskyblock:item/helmets/strong_dragon_helmet"
+	"firmament:head_model": "skyblock:item/helmets/strong_dragon_helmet"
 }

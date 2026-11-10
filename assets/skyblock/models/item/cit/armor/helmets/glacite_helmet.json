@@ -1,9 +1,9 @@
 {
 	"parent": "block/orientable",
 	"textures": {
-		"top": "firmskyblock:item/cit/armor/helmets/glacite_helmet_top",
-		"front": "firmskyblock:item/cit/armor/helmets/glacite_helmet_front",
-		"side": "firmskyblock:item/cit/armor/helmets/glacite_helmet_side"
+		"top": "skyblock:item/cit/armor/helmets/glacite_helmet_top",
+		"front": "skyblock:item/cit/armor/helmets/glacite_helmet_front",
+		"side": "skyblock:item/cit/armor/helmets/glacite_helmet_side"
 	},
 	"display": {
 		"thirdperson": {

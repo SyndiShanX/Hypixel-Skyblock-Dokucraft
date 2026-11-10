@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/tools/wands/wand_of_mending"
+    "layer0": "skyblock:item/cit/tools/wands/wand_of_mending"
   }
 }

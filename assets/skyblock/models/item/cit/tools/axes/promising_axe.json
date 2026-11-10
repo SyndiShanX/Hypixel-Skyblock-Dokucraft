@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/tools/axes/promising_axe"
+    "layer0": "skyblock:item/cit/tools/axes/promising_axe"
   }
 }

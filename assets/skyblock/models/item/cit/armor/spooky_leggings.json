@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "firmskyblock:item/cit/armor/spooky_leggings"
+    "layer0": "skyblock:item/cit/armor/spooky_leggings"
   }
 }
